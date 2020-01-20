@@ -1,0 +1,21 @@
+{
+    "name": "isaactw/ssdb",
+    "type" : "library",
+    "description": "PHP SSDB Library.",
+    "keywords": ["ssdb", "cache","php cache"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+            {
+                "name": "IsaacTseng"
+            }
+        ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "isaactw\\": "src/"
+        }
+    }
+}
